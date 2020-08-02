@@ -1,0 +1,1 @@
+SCHTASKS /CREATE /SC ONSTART /TN "Ping Test Start" /RU SYSTEM /TR "C:\Utilities\PingTest\pingtest.bat"
